@@ -1,0 +1,186 @@
+* {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f8ff;
+}
+
+a {
+    color: white;
+}
+
+.items-header > input {
+    width: 35%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 5px;
+}
+
+.items-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #faf9fa;
+}
+
+
+
+
+.box-menu {
+    width: 100%;
+    background-color: #3d918d;
+    height: 56px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.box-menu>button {
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #3d918d;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+/*
+
+*/
+
+.box-assuntos {
+    width: 100%;
+    height: 120px;
+    background-color: #f8f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flexdiv-assuntos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+
+/* HOVER */
+
+.box-menu>button:hover {
+    background-color: #f8b31d;
+    border: 0px solid #f8b31d;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    background-color: #222222;
+    height: 350px;
+    padding-top: 40px;
+    color: white;
+}
+
+footer > div {
+    width: 200px;
+    height: 200px;
+    margin: 0px 60px;
+}
+
+footer > div > h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-footer {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.box-footer {
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box-footer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-footer2 > div {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+}
+
+
+.box-carousel-img {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.carousel {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.item-carousel {
+    width: 300px;
+    height: 400px;
+}
+
+.item-carousel > img {
+    width: 100%;
+    height: 390px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.box-carousel-2 {
+    background-color: #3d918d;
+}
